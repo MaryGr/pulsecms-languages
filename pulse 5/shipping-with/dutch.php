@@ -3,7 +3,7 @@
 $lang_cancel = "Annuleren";
 $lang_duplicate = "Dupliceer";
 $lang_help = "Help";
-$lang_help_url = "http://help.pulsecms.com/";
+$lang_help_url = "https://help.pulsecms.com/";
 $lang_settings = "Instellingen";
 $lang_account = "Account";
 $lang_save = "Opslaan";
@@ -95,7 +95,7 @@ $lang_create_item_media = 'Media Item';
 $lang_create_item_folder = 'Map';
 
 $lang_create_button = "Maak"; 
-$lang_create_tool_tip = "Pagina's, blocks en blog-posts moeten eindigen met '.txt', dat wordt automatisch toegevoegd. Om een map of blog aan te maken selecteer Map of Blog en Maak.";
+$lang_create_tool_tip = "Pagina's, blocks en blog-posts moeten eindigen met '.txt', deze extentie wordt automatisch toegevoegd. Om een map of blog aan te maken selecteer Map of Blog en Maak.";
 $lang_create_embed = "Invoegen";
 $lang_create_embed_tag = "Invoeg Tag";
 $lang_create_embed_url = "Voeg URL in:";
@@ -108,8 +108,8 @@ $lang_create_media_move = "Verplaats media naar";
 $lang_create_folder_error        = 'Niet gelukt om een nieuwe map aan te maken';
 $lang_create_folder_error_exists = 'Die map bestaat al';
 
-$lang_create_folder_error_no_base   = 'No base folder found';
-$lang_create_folder_error_no_folder = 'No folder name entered';
+$lang_create_folder_error_no_base   = 'Geen map gevonden';
+$lang_create_folder_error_no_folder = 'Geen map naam aangemaakt folder';
 
 // Delete
 $lang_delete = 'Weet je zeker dat je dit wilt deleten? ';
@@ -158,8 +158,8 @@ $lang_newsletter_placeholder = 'Je Email-adres';
 $lang_newsletter_send = 'Inschrijven';
 
 // Redactor
-$lang_redactor_mail_button     = 'Fügt eine E-Mail in einen Text';
-$lang_redactor_mail_link_title = 'E-Mail an mich senden';
+$lang_redactor_mail_button     = 'Voegt een e-mail in een tekst in';
+$lang_redactor_mail_link_title = 'E-Mail naar mij verzenden';
 
 // Stats
 $lang_stats_today = "Bezoekers";
@@ -259,8 +259,8 @@ $lang_settings_jpeg_tooltip = 'Zet op 100 voor de maximale JPG kwaliteit (groter
 $lang_settings_jpegresample = 'JPG resampling "uit"';
 $lang_settings_jpegsize = 'JPG kwaliteit';
 $lang_settings_jpegsize_tooltip = "Schaal JPG's naar de maximale pixelgrootte (height)";
-$lang_settings_thumbheight = 'Thumbnail height';
-$lang_settings_thumbheight_tooltip = 'Height in px';
+$lang_settings_thumbheight = 'Thumbnail hoogte in pixels';
+$lang_settings_thumbheight_tooltip = 'Hoogte in px';
 $lang_settings_thumb = 'Maak thumbnails';
 
 // Settings: Navigation
@@ -275,8 +275,8 @@ $lang_settings_google_tooltip = 'Plaats hier je Google Analytics tracking code';
 
 //// Settings: GeoIP
 $lang_settings_title_geoip = 'GeoIP';
-$lang_settings_geoip       = 'GeoIP data for site stats';
-$lang_settings_geoip_label = 'Enable GeoIP for stats here';
+$lang_settings_geoip       = 'GeoIP data for site statistieken';
+$lang_settings_geoip_label = 'Schakel hier GeoIP for statistieken in';
 
 // Settings: OGP
 $lang_settings_title_ogp = 'OGP';
@@ -305,7 +305,7 @@ $lang_settings_rssurl_tooltip = 'http://example.com/blog';
 $lang_settings_rsslang = 'Datum notatie';
 $lang_settings_rsslang_tooltip = 'nl';
 $lang_settings_rssurlprefix = 'Blog URL prefix';
-$lang_settings_rssurlprefix_tooltip = '(blog) zal blog-1-post-titel zijn, je kunt dit aanpassen in htaccess';
+$lang_settings_rssurlprefix_tooltip = '(blog) wordt blog-1-post-titel, je kunt dit aanpassen in htaccess';
 
 // Settings: SMTP Settings
 $lang_settings_title_smtp = 'SMTP instellingen';
@@ -320,9 +320,9 @@ $lang_settings_smtpport_tooltip = '465';
 
 //// Settings: SweetAlert
 $lang_settings_title_sweetalert = 'SweetAlert Settings';
-$lang_settings_sweetalert_active_tooltip  = 'Activate alerts';
-$lang_settings_sweetalert_active          = 'Activate';
-$lang_settings_sweetalert_timeout_tooltip = 'Timeout delay (milliseconds)';
+$lang_settings_sweetalert_active_tooltip  = 'Activeer alerts';
+$lang_settings_sweetalert_active          = 'Activeer';
+$lang_settings_sweetalert_timeout_tooltip = 'Timeout uitstel (miliseconden)';
 $lang_settings_sweetalert_timeout         = 'Timeout';
 
 // Settings: Pagination
@@ -344,12 +344,12 @@ $lang_settings_formnamename_tooltip = 'Naam';
 $lang_settings_formemailname = 'Text voor Email';
 $lang_settings_formemailname_tooltip = 'Email';
 $lang_settings_formtextarea = 'Textarea afmeting';
-$lang_settings_formtextarea_tooltip = 'Hoeveel rows in comment textarea';
+$lang_settings_formtextarea_tooltip = 'Hoeveel regels in bericht textarea';
 $lang_settings_formemail = 'Form ontvanger';
-$lang_settings_formemail_tooltip = 'Gebruik een komma bij meerdere ontvangers';
-$lang_settings_formsubject = 'Form onderwerp';
+$lang_settings_formemail_tooltip = 'Gebruik een komma na elke extra ontvangers';
+$lang_settings_formsubject = 'Onderwerp formulier';
 $lang_settings_formsubject_tooltip = 'Je hebt mail ontvangen!';
-$lang_settings_formthanks = 'Inschakelen automatische bedankt-email na verzenden';
+$lang_settings_formthanks = 'Inschakelen van een bedankt-email na verzenden';
 $lang_settings_formredirect = 'Redirect na verzenden';
 $lang_settings_formredirect_tooltip = 'https://yoursite.com/thanks';
 
@@ -367,12 +367,12 @@ $lang_settings_recapkeysecret = 'reCAPTCHA Secret Key';
 $lang_settings_recapkeysecret_tooltip = 'Ophalen van Google account: https://www.google.com/recaptcha';
 
 // Settings: Permissions
-$lang_settings_title_editor = 'Editor User';
-$lang_settings_editor = 'Enable Editor user';
-$lang_settings_editorpass = 'Editor password';
+$lang_settings_title_editor = 'Editor gebruiker';
+$lang_settings_editor = 'Enable Editor gebruiker';
+$lang_settings_editorpass = 'Editor wachtwoord';
 $lang_settings_editorpass_tooltip = 'Iets wat moeilijk te raden is';
-$lang_settings_editoruser = 'Editor username';
-$lang_settings_editoruser_tooltip = 'Wordt gebruikt om een naam te tonen voor Blog posts';
+$lang_settings_editoruser = 'Editor gebruikersnaam';
+$lang_settings_editoruser_tooltip = 'Wordt gebruikt om een naam te laten zien voor Blog posts';
 $lang_settings_title_editorotp = 'One Time Password settings (Editor)';
 $lang_settings_editorotpactivate = 'Activeer One Time Password';
 $lang_settings_editorotpsecret = 'One Time Password secret';
@@ -388,8 +388,8 @@ $lang_settings_title_plugins = 'Plugins';
 $lang_settings_pluginupload = 'Upload plugin ZIP';
 $lang_settings_title_customposts = 'Custom Post Types';
 $lang_settings_managecustomposts = 'Beheer custom post-types';
-$lang_settings_themeuploader = 'Upload nieuw thema-ZIP file';
-$lang_settings_pluginuploader = 'Upload nieuwe plugin-ZIP file';
+$lang_settings_themeuploader = 'Upload nieuw thema ZIP-file';
+$lang_settings_pluginuploader = 'Upload nieuwe plugin ZIP-file';
 
 // Settings: Media
 $lang_settings_mediaupload = 'Upload een media bestand';
@@ -400,20 +400,20 @@ $lang_settings_navigationsubtitle = 'Sleep de menu-items om te herordenen.';
 $lang_settings_navigationsubmenu = 'Voeg sub-menu toe';
 
 // Settings: Custom Post Type
-$lang_settings_custompostentries = 'Custom post-type entries voor:';
+$lang_settings_custompostentries = 'Aangepaste post-type entries voor:';
 $lang_settings_custompostadd = 'Voeg een nieuwe entry toe';
-$lang_settings_title_custompostedit = 'Custom post-type entries voor:';
+$lang_settings_title_custompostedit = 'Titel aangepaste post-type entries voor:';
 $lang_settings_custompostback = '< Terug naar de pagina met entry-lijst';
 $lang_settings_custompostname = 'Post Naam';
-$lang_settings_custompostdelete = 'custom post-type entry';
-$lang_settings_custompostaddentry = 'Voeg een custom post-type entry toe voor:';
+$lang_settings_custompostdelete = 'aangepast post-type entry';
+$lang_settings_custompostaddentry = 'Voeg een aangepast post-type entry toe voor:';
 $lang_settings_customposttypes = 'Custom post-types';
 $lang_settings_custompostmanage = 'beheer entries';
 $lang_settings_custompostmanageedit = 'edit';
-$lang_settings_custompostmanageadd = 'Voeg een nieuw custom post-type toe';
-$lang_settings_title_custompostedit_title = 'Edit een custom post-type';
-$lang_settings_title_custompostedit_titlein = 'Edit een custom post-type entry in:';
-$lang_settings_custompostdefadd = 'Voeg een custom post-type toe';
+$lang_settings_custompostmanageadd = 'Voeg een nieuw aangepast post-type toe';
+$lang_settings_title_custompostedit_title = 'Edit een aangepast post-type';
+$lang_settings_title_custompostedit_titlein = 'Edit een aangepast post-type entry in:';
+$lang_settings_custompostdefadd = 'Voeg een aangepast post-type toe';
 $lang_settings_custompostdeftypename = 'Post type naam';
 $lang_settings_custompostdefname = 'Naam';
 $lang_settings_custompostdeftype = 'Type';
